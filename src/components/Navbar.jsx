@@ -45,7 +45,7 @@ function Navbar({ t, lang, setLang, active }) {
             </span>
           ))}
           <a
-            href="#"
+            href="https://morvi-projects.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-see-projects-btn"
