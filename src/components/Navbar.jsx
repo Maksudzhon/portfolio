@@ -44,6 +44,14 @@ function Navbar({ t, lang, setLang, active }) {
               {t.nav[id]}
             </span>
           ))}
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-see-projects-btn"
+          >
+            {t.nav.seeProjects} ↗
+          </a>
         </div>
 
         {/* Right side: lang + hamburger */}
@@ -82,6 +90,16 @@ function Navbar({ t, lang, setLang, active }) {
               {t.nav[id]}
             </span>
           ))}
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-see-projects-btn"
+            style={{ alignSelf: "flex-start" }}
+            onClick={() => setMenuOpen(false)}
+          >
+            {t.nav.seeProjects} ↗
+          </a>
         </div>
       )}
     </nav>

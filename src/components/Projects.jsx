@@ -52,13 +52,30 @@ function Projects({ t, lang }) {
                   </span>
                 </div>
 
-                {/* Title */}
-                <h3
-                  className="syne"
-                  style={{ fontWeight: 700, fontSize: "1.1rem", marginBottom: 10 }}
-                >
-                  {proj.title}
-                </h3>
+                {/* Title + badge */}
+                <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10, flexWrap: "wrap" }}>
+                  <h3
+                    className="syne"
+                    style={{ fontWeight: 700, fontSize: "1.1rem" }}
+                  >
+                    {proj.title}
+                  </h3>
+                  {proj.badge && (
+                    <span style={{
+                      fontSize: "0.68rem",
+                      fontWeight: 700,
+                      padding: "2px 8px",
+                      borderRadius: 20,
+                      background: "#fff4e6",
+                      color: "#d97706",
+                      border: "1px solid #fde68a",
+                      letterSpacing: "0.04em",
+                      whiteSpace: "nowrap",
+                    }}>
+                      {proj.badge}
+                    </span>
+                  )}
+                </div>
 
                 {/* Description — multilingual */}
                 <p

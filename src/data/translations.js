@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    nav: { about: "About", skills: "Skills", projects: "Projects", contact: "Contact" },
+    nav: { about: "About", skills: "Skills", projects: "Projects", contact: "Contact", seeProjects: "See My Projects" },
     hero: {
       greeting: "Hey, I'm",
       role: "Junior Backend Developer",
@@ -10,7 +10,7 @@ const translations = {
     },
     about: {
       title: "About Me",
-      p1: "I'm an 18-year-old developer from Uzbekistan who is always hungry for knowledge and loves diving into new challenges.",
+      p1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. I'm an 18-year-old developer from Uzbekistan who is always hungry for knowledge and loves diving into new challenges.",
       p2: "My main focus is backend development — building APIs, bots, and server-side logic. I'm also deeply interested in cybersecurity and plan to explore it seriously in the near future.",
       p3: "I believe in learning by building. Every project teaches me something new, and I enjoy tackling ambitious, large-scale ideas.",
       age: "Age",
@@ -35,7 +35,7 @@ const translations = {
       view: "View Project",
     },
     contact: {
-      title: "Contact Me",
+      title: "Let's Talk",
       sub: "Have a project in mind? Let's build something cool.",
       name: "Your Name",
       email: "Your Email",
@@ -47,7 +47,7 @@ const translations = {
     },
   },
   uz: {
-    nav: { about: "Haqimda", skills: "Ko'nikmalar", projects: "Loyihalar", contact: "Aloqa" },
+    nav: { about: "Haqimda", skills: "Ko'nikmalar", projects: "Loyihalar", contact: "Aloqa", seeProjects: "Loyihalarim" },
     hero: {
       greeting: "Salom, men",
       role: "Junior Backend Dasturchi",
@@ -82,7 +82,7 @@ const translations = {
       view: "Loyihani Ko'r",
     },
     contact: {
-      title: "Bog'lanish",
+      title: "Gaplashamiz",
       sub: "Loyihangiz bormi? Birgalikda quramiz.",
       name: "Ismingiz",
       email: "Emailingiz",
@@ -94,7 +94,7 @@ const translations = {
     },
   },
   ru: {
-    nav: { about: "Обо мне", skills: "Навыки", projects: "Проекты", contact: "Контакт" },
+    nav: { about: "Обо мне", skills: "Навыки", projects: "Проекты", contact: "Контакт", seeProjects: "Мои Проекты" },
     hero: {
       greeting: "Привет, я",
       role: "Junior Backend Разработчик",
@@ -129,7 +129,7 @@ const translations = {
       view: "Открыть",
     },
     contact: {
-      title: "Свяжитесь со мной",
+      title: "Давай поговорим",
       sub: "Есть проект? Давай построим что-нибудь крутое.",
       name: "Ваше имя",
       email: "Ваш Email",
