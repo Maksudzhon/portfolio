@@ -8,7 +8,7 @@ const projects = [
       ru: "Система отслеживания погоды в реальном времени.",
     },
     tags: ["Node.js", "TypeScript", "Firebase"],
-    link: "https://weather-system-assistant-v3-9-3.netlify.app/",
+    link: "https://weather-system-assistant-3-9-3bymorvi.netlify.app/",
   },
   {
     title: "Weather System App Bot",
